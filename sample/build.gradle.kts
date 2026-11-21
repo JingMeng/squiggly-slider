@@ -9,6 +9,7 @@ android {
   defaultConfig {
     applicationId = namespace
     minSdk = 31
+    targetSdk = 34
     compileSdk = libs.versions.compileSdk.get().toInt()
     versionCode = 1
     versionName = "1.0"

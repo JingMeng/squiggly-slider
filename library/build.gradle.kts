@@ -11,6 +11,7 @@ android {
 
   defaultConfig {
     minSdk = libs.versions.minSdk.get().toInt()
+    targetSdk = 34
     compileSdk = libs.versions.compileSdk.get().toInt()
   }
   buildFeatures {
